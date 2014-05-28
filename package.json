@@ -1,0 +1,30 @@
+{
+  "name": "env-variable",
+  "version": "0.0.0",
+  "description": "Cross platform environment variables with process.env, window.name, location.hash and localStorage fallbacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3rd-Eden/env-variable"
+  },
+  "keywords": [
+    "browser",
+    "env",
+    "environment variable",
+    "environment",
+    "fallback",
+    "location.hash",
+    "process.env",
+    "variable",
+    "window.name"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3rd-Eden/env-variable/issues"
+  },
+  "homepage": "https://github.com/3rd-Eden/env-variable"
+}
