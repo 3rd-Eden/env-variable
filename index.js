@@ -21,15 +21,15 @@ function env(environment) {
       env.merge(environment, env.parse(window.name));
     }
 
-    if ('undefined' !== localStorage) {
-      try { env.merge(environment, env.parse(localStorage.env || localStorage.debug)); }
+    if (window.localStorage) {
+      try { env.merge(environment, env.parse(window.localStorage.env || window.localStorage.debug)); }
       catch (e) {}
     }
 
-    if ('string' === location.hash && location.hash.length) {
-      env.merge(environment, env.parse(location.hash.chartAt(0) === '#'
-        ? location.hash.slice(1)
-        : location.hash
+    if (window.location && 'string' === window.location.hash && window.location.hash.length) {
+      env.merge(environment, env.parse(window.location.hash.chartAt(0) === '#'
+        ? window.location.hash.slice(1)
+        : window.location.hash
       ));
     }
   }
