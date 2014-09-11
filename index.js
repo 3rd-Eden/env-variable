@@ -26,8 +26,8 @@ function env(environment) {
       catch (e) {}
     }
 
-    if (window.location && 'string' === window.location.hash && window.location.hash.length) {
-      env.merge(environment, env.parse(window.location.hash.chartAt(0) === '#'
+    if (window.location && 'string' === typeof window.location.hash && window.location.hash.length) {
+      env.merge(environment, env.parse(window.location.hash.charAt(0) === '#'
         ? window.location.hash.slice(1)
         : window.location.hash
       ));
