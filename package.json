@@ -4,7 +4,7 @@
   "description": "Cross platform environment variables with process.env, window.name, location.hash and localStorage fallbacks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/3rd-Eden/env-variable/issues"
   },
-  "homepage": "https://github.com/3rd-Eden/env-variable"
+  "homepage": "https://github.com/3rd-Eden/env-variable",
+  "devDependencies": {
+    "assume": "^2.0.1",
+    "mocha": "^5.1.1"
+  }
 }
