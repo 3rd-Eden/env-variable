@@ -62,4 +62,4 @@ And that's basically everything you need to know. *random high fives*.
 
 ## License
 
-MIT
+[MIT](LICENSE)

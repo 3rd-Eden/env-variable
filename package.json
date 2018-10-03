@@ -1,6 +1,6 @@
 {
   "name": "env-variable",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cross platform environment variables with process.env, window.name, location.hash and localStorage fallbacks",
   "main": "index.js",
   "scripts": {
