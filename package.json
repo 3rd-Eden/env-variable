@@ -33,7 +33,7 @@
   "homepage": "https://github.com/3rd-Eden/env-variable",
   "devDependencies": {
     "assume": "^2.0.1",
-    "mocha": "^5.1.1",
+    "mocha": "^6.2.0",
     "istanbul": "^0.4.5"
   }
 }
